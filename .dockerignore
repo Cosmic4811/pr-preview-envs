@@ -1,0 +1,5 @@
+# Only the app/ folder is sent to Docker. This keeps Terraform state,
+# .git and other private files out of the build.
+*
+!app/
+app/dist/

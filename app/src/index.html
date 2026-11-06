@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PR #{{PR_NUMBER}} preview</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <p class="badge">Preview environment</p>
+    <h1>Pull request #{{PR_NUMBER}}</h1>
+    <p>Built from commit <code>{{COMMIT_SHORT}}</code>.</p>
+    <p>This page has its own private URL. It is deleted automatically when the
+       pull request closes, or when nobody has pushed to it for a while.</p>
+    <p><a href="about/">About this project &rarr;</a></p>
+    <p id="clock" class="muted"></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

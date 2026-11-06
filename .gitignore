@@ -1,0 +1,24 @@
+# Terraform: downloaded plugins, state files and your private settings
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!*.tfvars.example
+backend.hcl
+infra/.build/
+
+# Build output
+app/dist/
+dist/
+
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
